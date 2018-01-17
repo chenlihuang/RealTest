@@ -1,7 +1,7 @@
 package designpattern;
 
-/**非线程安全，第一次获取实例时分配内存.
- *
+/**
+ * 非线程安全，第一次获取实例时分配内存.
  */
 class Singleton2 {
   private static Singleton2 instance = null;

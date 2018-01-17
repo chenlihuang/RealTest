@@ -1,14 +1,16 @@
 package designpattern;
 
-/**赋值运算符函数.
+/**
+ * 赋值运算符函数.
  * java不支持运算符重载，赋值操作以assign函数代替，部分实现功能，连续赋值存在bug，s3->s2->s1，s2不被赋值
- *
  */
 public class AssignmentOperator {
   public static class MyString {
     private String data;
 
-    /**构造函数.
+    /**
+     * 构造函数.
+     *
      * @param data 待赋值字符串
      */
     private MyString(String data) {
@@ -30,9 +32,11 @@ public class AssignmentOperator {
     }
   }
 
-  /**主程序入口.
-    * @param args 命令行输入传入
-    */
+  /**
+   * 主程序入口.
+   *
+   * @param args 命令行输入传入
+   */
   public static void main(String[] args) {
     MyString s1 = new MyString("a");
     MyString s2 = new MyString("b");
