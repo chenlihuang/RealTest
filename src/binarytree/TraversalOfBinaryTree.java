@@ -173,36 +173,36 @@ public class TraversalOfBinaryTree {
     //              /
     //             3
     //pre->123  in->132   post->321  level->123
-    TreeNode<Integer> root = new TreeNode<Integer>(1);
-    root.right = new TreeNode<Integer>(2);
-    root.right.left = new TreeNode<Integer>(3);
+    TreeNode<Integer> root = new TreeNode<>(1);
+    root.right = new TreeNode<>(2);
+    root.right.left = new TreeNode<>(3);
 
     List<Integer> listPreorderRecursively = preorderRecursively(root);
-    System.out.print("preorderRecursively: "+'\t');
+    System.out.print("preorderRecursively: " + '\t');
     System.out.println(listPreorderRecursively.toString());
 
     List<Integer> listPreorderIteratively = preorderIteratively(root);
-    System.out.print("preorderIteratively: "+'\t');
+    System.out.print("preorderIteratively: " + '\t');
     System.out.println(listPreorderIteratively.toString());
 
     List<Integer> listInorderRecursively = inorderRecursively(root);
-    System.out.print("inorderRecursively: "+'\t');
+    System.out.print("inorderRecursively: " + '\t');
     System.out.println(listInorderRecursively.toString());
 
     List<Integer> listInorderIteratively = inorderIteratively(root);
-    System.out.print("inorderIteratively: "+'\t');
+    System.out.print("inorderIteratively: " + '\t');
     System.out.println(listInorderIteratively.toString());
 
     List<Integer> listPostorderRecursively = postorderRecursively(root);
-    System.out.print("postorderRecursively: "+'\t');
+    System.out.print("postorderRecursively: " + '\t');
     System.out.println(listPostorderRecursively.toString());
 
     List<Integer> listPostorderIteratively = postorderIteratively(root);
-    System.out.print("postorderIteratively: "+'\t');
+    System.out.print("postorderIteratively: " + '\t');
     System.out.println(listPostorderIteratively.toString());
 
     List<Integer> listLevelorder = levelorder(root);
-    System.out.print("levelorder: "+'\t');
+    System.out.print("levelorder: " + '\t');
     System.out.println(listLevelorder.toString());
 
 
