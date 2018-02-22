@@ -36,6 +36,10 @@ public class PrintListInReversedOrder {
     }
   }
 
+  /**
+   * 主程序入口.
+   * @param args 命令行输入传入
+   */
   public static void main(String[] args) {
     ListNode<Integer> head = new ListNode<Integer>(1);
     head.next = new ListNode<Integer>(2);
