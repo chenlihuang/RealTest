@@ -4,7 +4,12 @@ package linkedlist;
  * 斐波那契数列.
  */
 public class Fibonacci {
-  // 依据原始概念的递归解法，时间复杂度o(n^2)
+  /**
+   * 依据原始概念的递归解法，时间复杂度o(n^2).
+   * @param n 级数
+   * @return 和
+   */
+
   public static int fibonacci1(int n) {
     if (n <= 0) {
       return 0;
@@ -15,7 +20,11 @@ public class Fibonacci {
     return fibonacci1(n - 1) + fibonacci1(n - 2);
   }
 
-  // 当前状态只与前两个状态有关。存储前两个值，计算后一个，迭代进行。时间复杂度o(n)
+  /**
+   * 当前状态只与前两个状态有关。存储前两个值，计算后一个，迭代进行。时间复杂度o(n).
+   * @param n 级数
+   * @return 和
+   */
   public static int fibonacci2(int n) {
     if (n <= 0) {
       return 0;
