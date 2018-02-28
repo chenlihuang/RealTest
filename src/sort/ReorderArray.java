@@ -47,10 +47,10 @@ public class ReorderArray {
   public static void main(String[] args) {
     int[] data = {1, 2, 3, 4, 5, 7, 7};
     reorder(data);
-//    for (int i = 0; i < data.length; i++) {
-//      System.out.print(data[i]);
-//      System.out.print('\t');
-//    }
+    /*    for (int i = 0; i < data.length; i++) {
+      System.out.print(data[i]);
+      System.out.print('\t');
+     } */
     for (int i:data) {
       System.out.print(i);
       System.out.print('\t');
