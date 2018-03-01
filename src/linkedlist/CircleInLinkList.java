@@ -62,7 +62,7 @@ public class CircleInLinkList {
   }
 
   /**
-   * 判断单向链表是否存在环.
+   * 判断单向链表是否存在环，环的长度.
    * 双指针遍历
    *
    * @param head 头节点
