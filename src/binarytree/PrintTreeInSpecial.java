@@ -1,6 +1,5 @@
 package binarytree;
 
-
 import java.util.Stack;
 import structure.TreeNode;
 
